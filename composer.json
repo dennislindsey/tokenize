@@ -1,0 +1,26 @@
+{
+    "name": "dennislindsey/tokenize",
+    "description": "Tokenization Interface",
+    "keywords": ["tokenex", "tokenization"],
+    "authors": [
+        {
+            "name": "Dennis Lindsey",
+            "email": "denniseblindsey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        },
+        "psr-4": {
+            "DennisLindsey\\Tokenize\\": "src/"
+        }
+    },
+    "suggest": {
+        "basicit/lumen-vendor-publish": "Allows the usage of artisan's vendor:publish command in Lumen-based projects"
+    }
+}
